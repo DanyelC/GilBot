@@ -5,7 +5,7 @@ import configparser
  
 config = configparser.ConfigParser()
 config.sections()
-config.read('gilbot.conf')
+config.read('conf/gilbot.conf')
 bot = telebot.TeleBot(config['DEFAULTS']['bot_token'])
 
 
