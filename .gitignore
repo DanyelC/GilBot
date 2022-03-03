@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 #Bot conf
+conf/
 .conf
